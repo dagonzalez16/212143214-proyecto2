@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Dadp que [some context]
+ Dado que [some context]
  Cuando [certain action is taken]
  Entonces [the outcome of action is observed]
  ```
