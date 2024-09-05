@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**Como** [role]  
+ **Necesito** [function]  
+ **Para** [benefit]  
    
  ### Details and Assumptions
  * [document what you know]
@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Dadp que [some context]
+ Cuando [certain action is taken]
+ Entonces [the outcome of action is observed]
  ```
