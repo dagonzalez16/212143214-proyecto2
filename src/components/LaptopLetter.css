@@ -1,0 +1,26 @@
+.letter {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.letter h2 {
+    text-align: center;
+}
+
+.letter p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .letter {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
