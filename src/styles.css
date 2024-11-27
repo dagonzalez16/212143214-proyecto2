@@ -1,0 +1,328 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+/* Página Home */
+.home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home h1 {
+    color: #4a90e2;
+    font-size: 2.5rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.home button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.home button:hover {
+    background-color: #357abd;
+}
+
+/* CRUD Page */
+.crud {
+    padding: 20px;
+}
+
+.crud h2 {
+    color: #4a90e2;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.crud form {
+    margin-bottom: 20px;
+}
+
+.crud form input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.crud form button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.crud form button:hover {
+    background-color: #357abd;
+}
+
+.crud table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.crud table th, .crud table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.crud table th {
+    background-color: #4a90e2;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.crud table td {
+    background-color: #2a2a3b;
+    color: #ffffff;
+    border-bottom: 1px solid #1e1e2f;
+}
+
+.crud table tr:hover td {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.crud table button {
+    background-color: #357abd;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.crud table button:hover {
+    background-color: #285a8a;
+}
+
+.crud a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.crud a:hover {
+    text-decoration: underline;
+}
+
+/* Página LaptopCRUD */
+.laptop-crud {
+    padding: 20px;
+}
+
+.laptop-crud h2 {
+    color: #4a90e2;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.laptop-crud form {
+    margin-bottom: 20px;
+}
+
+.laptop-crud form input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.laptop-crud form button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.laptop-crud form button:hover {
+    background-color: #357abd;
+}
+
+.laptop-crud table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.laptop-crud table th, .laptop-crud table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.laptop-crud table th {
+    background-color: #4a90e2;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.laptop-crud table td {
+    background-color: #2a2a3b;
+    color: #ffffff;
+    border-bottom: 1px solid #1e1e2f;
+}
+
+.laptop-crud table tr:hover td {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.laptop-crud table button {
+    background-color: #357abd;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.laptop-crud table button:hover {
+    background-color: #285a8a;
+}
+
+.laptop-crud a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.laptop-crud a:hover {
+    text-decoration: underline;
+}
+
+/* Página RH */
+.crud-rh {
+    padding: 20px;
+}
+
+.crud-rh h2 {
+    color: #4a90e2;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.crud-rh form {
+    margin-bottom: 20px;
+}
+
+.crud-rh form input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.crud-rh form button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.crud-rh form button:hover {
+    background-color: #357abd;
+}
+
+.crud-rh table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.crud-rh table th, .crud-rh table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.crud-rh table th {
+    background-color: #4a90e2;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.crud-rh table td {
+    background-color: #2a2a3b;
+    color: #ffffff;
+    border-bottom: 1px solid #1e1e2f;
+}
+
+.crud-rh table tr:hover td {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.crud-rh table button {
+    background-color: #357abd;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.crud-rh table button:hover {
+    background-color: #285a8a;
+}
+
+.crud-rh a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.crud-rh a:hover {
+    text-decoration: underline;
+}
